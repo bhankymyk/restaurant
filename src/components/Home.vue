@@ -17,7 +17,7 @@
       <div class="col-md-12 text-center">
         <h3>Find Restaurant Management<br> made easy as pie</h3>
         <p> Very easy to add, update and <br> delete a restaurant. Enjoy!!!</p>
-        <button class="btn btn-lg" type="button">
+        <button class="btn btn-lg btn-success" type="button">
           <router-link to="/homePage">Next</router-link></button>
       </div>
     </div>
@@ -37,16 +37,17 @@ a {
   color: #42b983;
 }
 button{
-  background-color: #2FDBBC;
+  /* background-color: #42b983; */
   padding: 10px 20px;
   font-size: 20px;
   width: 200px;
+  
 }
-button:hover{
-  background: #8decdb;
-}
+
 a {
   text-decoration: none;
+  color: black;
+  font-weight: 300;
 }
 .container{
   background: url("../assets/Pattern.png");
