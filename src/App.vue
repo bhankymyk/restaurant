@@ -3,10 +3,10 @@
     <div class="row">
       <div class="col">
         <nav>
-          <router-link to="/">  FOOD-IE</router-link> |
-          <router-link to="/homePage"> <font-awesome-icon :icon="['fas', 'house']" /> Home</router-link> |
-          <router-link to="/addRestaurant"> <font-awesome-icon :icon="['fas', 'square-plus']" /> Add Restaurant</router-link> |
-          <router-link to="/about"> <font-awesome-icon :icon="['fas', 'address-card']" /> About</router-link> 
+          <router-link to="/">FOOD-IE </router-link> 
+          <router-link to="/homePage"> <font-awesome-icon :icon="['fas', 'house']" /> Home </router-link> 
+          <router-link to="/addRestaurant"> <font-awesome-icon :icon="['fas', 'square-plus']" /> Add Restaurant </router-link> 
+          <router-link to="/about"> <font-awesome-icon :icon="['fas', 'address-card']" /> About </router-link> 
         </nav>
         <router-view/>
       </div>
@@ -37,5 +37,14 @@ nav a {
 }
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+@media  only screen and (max-width: 767px) {
+  nav{
+    padding: 5px;
+    /* display: block; */
+    /* margin-right: 5px; */
+  }
+  
 }
 </style>
