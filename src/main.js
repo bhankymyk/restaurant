@@ -8,11 +8,11 @@ import "bootstrap/dist/js/bootstrap.js"
 
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faCog, faCheck, faHouse, faAddressCard, faSquarePlus, faTrash} from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faCog, faCheck, faHouse, faAddressCard, faSquarePlus, faTrash, faPenToSquare} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 // Add the Font Awesome icons to the library
-library.add(faCoffee, faCog, faCheck, faHouse, faAddressCard, faSquarePlus, faTrash);
+library.add(faCoffee, faCog, faCheck, faHouse, faAddressCard, faSquarePlus, faTrash, faPenToSquare);
 
 // Create the Vue app instance
 const app = createApp(App);

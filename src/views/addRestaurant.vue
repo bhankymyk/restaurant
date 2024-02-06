@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid text-center">
-        <div class="row">
+        <div class="row mt-5">
             <div class="col">
                 <h4>Add Restaurant</h4>
                 <form action="">
@@ -57,8 +57,8 @@ import axios from 'axios'
 input{
     border: 1px solid #42b983;
     border-radius: 25px;
-    background: #A3A3A3;
-    color: white;
+    /* background: #A3A3A3; */
+    color: #333;
     width: 200px;
     height: 40px;
     padding: 10px;

@@ -46,8 +46,8 @@ button{
 
 a {
   text-decoration: none;
-  color: black;
-  font-weight: 300;
+  color: white;
+  font-weight: 600;
 }
 .container{
   background: url("../assets/Pattern.png");

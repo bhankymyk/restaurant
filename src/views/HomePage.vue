@@ -12,19 +12,19 @@
                 <table class="table table-bordered" border="3" >
                     
                         <tr class="tHead">
-                            <td>Id</td>
+                            <td>#</td>
                             <td>Name</td>
                             <td>Location</td>
                             <td></td>
                             <td></td>
                         </tr>
                     
-                    <tr v-for="item in restaurant" :key="item.id">
-                        <td>{{ item.id }}</td>
+                    <tr v-for="(item, index) in restaurant" :key="item.id">
+                        <td>{{ index + 1 }}</td>
                         <td>{{ item.name }}</td>
                         <td>{{ item.location }}</td>
-                        <td> <router-link :to="'/updateRestaurant/'+item.id">Update Restaurant</router-link> </td>
-                        <td><button v-on:click="deleteRestaurant(item.id)" type="button" class="btn btn-lg btn-success" ><font-awesome-icon :icon="['fas', 'trash']" /></button></td>
+                        <td> <router-link :to="'/updateRestaurant/'+item.id"><font-awesome-icon :icon="['fas', 'pen-to-square']" /></router-link> </td>
+                        <td><button v-on:click="deleteRestaurant(item.id)" type="button" class="btn btn-lg" ><font-awesome-icon :icon="['fas', 'trash']" /></button></td>
                         </tr>
                 </table>
             </div>
@@ -109,10 +109,6 @@ import axios from 'axios';
     a{
       text-decoration: none;
     }
-    .btn{
-      background-color: #198754;
-    }
-
     @media only screen and (max-width: 767px) {
       th, td {
         padding: 7px;
