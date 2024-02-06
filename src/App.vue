@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><router-link to="/">FOOD-IE </router-link></a>
+    <a class="navbar-brand" href="#"><router-link to="/"> <img src="./assets/logo.png"  class="img-fluid" alt=""></router-link></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,14 +37,14 @@
   /* color: #2c3e50; */
 }
 
-nav {
+/* nav {
   padding: 20px;
   justify-content: space-around;
   display: flex;
-}
+} */
 
 nav a {
-  color: #42b983;
+  color: #333;
   font-weight: bold;
   /* color: #2c3e50; */
   text-decoration: none;

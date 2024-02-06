@@ -1,5 +1,5 @@
 <template>
-    <div class="container small-screen">
+    <div class="small-screen">
     <div class="row  mb-5 text-center">
       <img src="" alt="">
       <!-- <img src="../assets/Illustartion.png" class="img-fluid" alt=""> -->
@@ -49,18 +49,18 @@ a {
   color: white;
   font-weight: 600;
 }
-.container{
+.small-screen{
   background: url("../assets/Pattern.png");
     height: 100vh;
 
 }
 
-
+/* 
 @media only screen and (max-width: 767px) {
   .small-screen {
     background: url("../assets/Pattern.png");
     height: 100vh;
   }
-}
+} */
 
 </style>
