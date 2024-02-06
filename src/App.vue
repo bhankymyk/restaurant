@@ -18,10 +18,6 @@
     </div>
   </div>
 </nav>
-
-
-        <nav> 
-        </nav>
         <router-view/>
       </div>
     </div>
@@ -33,8 +29,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  /* color: #2c3e50; */
 }
 
 /* nav {
@@ -46,7 +40,6 @@
 nav a {
   color: #333;
   font-weight: bold;
-  /* color: #2c3e50; */
   text-decoration: none;
 }
 nav a.router-link-exact-active {
