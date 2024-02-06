@@ -7,7 +7,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
             <div class="col">
                 <table class="table table-bordered" border="3" >
                     
@@ -111,5 +111,12 @@ import axios from 'axios';
     }
     .btn{
       background-color: #198754;
+    }
+
+    @media only screen and (max-width: 767px) {
+      th, td {
+        padding: 7px;
+      }
+      
     }
 </style>

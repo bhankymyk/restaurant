@@ -41,9 +41,11 @@ nav a.router-link-exact-active {
 
 @media  only screen and (max-width: 767px) {
   nav{
-    padding: 5px;
-    /* display: block; */
-    /* margin-right: 5px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 9px;
+  
   }
   
 }
