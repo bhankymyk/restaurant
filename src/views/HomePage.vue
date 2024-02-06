@@ -15,8 +15,8 @@
                             <td>Id</td>
                             <td>Name</td>
                             <td>Location</td>
-                            <td>Actions</td>
-                            <td>Actions</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                     
                     <tr v-for="item in restaurant" :key="item.id">

@@ -43,9 +43,7 @@ nav a.router-link-exact-active {
   nav{
     padding: 10px;
     display: flex;
-    justify-content: space-around;
-    margin-right: 9px;
-  
+    justify-content: space-between;
   }
   
 }
